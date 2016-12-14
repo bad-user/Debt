@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Debt
 {
-    public partial class Form1 : Form
+    public partial class Frm_Emplyee : Form
     {
-        public Form1()
+        public Frm_Emplyee()
         {
             InitializeComponent();
         }
