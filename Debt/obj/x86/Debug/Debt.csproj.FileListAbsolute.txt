@@ -21,3 +21,4 @@ H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Section.resources
 H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Properties.Resources.resources
 H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.csproj.GenerateResource.Cache
 E:\My Programs\Debt\Debt\obj\x86\Debug\Debt.csprojResolveAssemblyReference.cache
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.csprojResolveAssemblyReference.cache

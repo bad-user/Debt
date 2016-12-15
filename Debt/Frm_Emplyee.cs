@@ -141,7 +141,7 @@ namespace Debt
             if (MessageBox.Show("هل انتا متاكد", "تحذير", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 db.RunNunQuary("delete from Emplyees where Emp_ID= " + txtEmpID.Text + " ", "تم حذف بيانات الموظف بنجاح");
-                Frm_Emplyee_Load(null, null);
+                AutoNum();
             }
         }
 
@@ -150,12 +150,7 @@ namespace Debt
             if (MessageBox.Show("هل انتا متاكد", "تحذير", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
                 db.RunNunQuary("delete  from Emplyees ", "تم حذف جميع البيانات بنجاح");
-
-                NudEmpSalary.Value = 1;
-                txtEmpJob.Clear();
-                txtEmpAddres.Clear();
-                txtPhoneNum.Clear();
-                txtEmpName.Clear();
+                AutoNum();
             }
         }
 

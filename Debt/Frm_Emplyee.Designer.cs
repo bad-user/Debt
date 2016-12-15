@@ -44,6 +44,7 @@
             this.txtEmpName = new System.Windows.Forms.TextBox();
             this.txtEmpAddres = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cbxSearch = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnDeleteAll = new System.Windows.Forms.Button();
@@ -56,7 +57,6 @@
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnPrev = new System.Windows.Forms.Button();
-            this.cbxSearch = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.NudEmpSalary)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -267,6 +267,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "العمليات المتاحة";
             // 
+            // cbxSearch
+            // 
+            this.cbxSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbxSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbxSearch.FormattingEnabled = true;
+            this.cbxSearch.Location = new System.Drawing.Point(6, 14);
+            this.cbxSearch.Name = "cbxSearch";
+            this.cbxSearch.Size = new System.Drawing.Size(279, 27);
+            this.cbxSearch.TabIndex = 414;
+            this.cbxSearch.SelectedIndexChanged += new System.EventHandler(this.cbxSearch_SelectedIndexChanged);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -421,17 +432,6 @@
             this.btnPrev.UseVisualStyleBackColor = false;
             this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
-            // cbxSearch
-            // 
-            this.cbxSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbxSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxSearch.FormattingEnabled = true;
-            this.cbxSearch.Location = new System.Drawing.Point(6, 14);
-            this.cbxSearch.Name = "cbxSearch";
-            this.cbxSearch.Size = new System.Drawing.Size(279, 27);
-            this.cbxSearch.TabIndex = 414;
-            this.cbxSearch.SelectedIndexChanged += new System.EventHandler(this.cbxSearch_SelectedIndexChanged);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtEmpID);
@@ -456,7 +456,7 @@
             this.groupBox1.Size = new System.Drawing.Size(721, 269);
             this.groupBox1.TabIndex = 414;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "اسهم التنقل";
+            this.groupBox1.Text = "بيانات الموظفين";
             // 
             // Frm_Emplyee
             // 
