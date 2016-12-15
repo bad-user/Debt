@@ -45,7 +45,6 @@
             this.txtEmpAddres = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnDeleteAll = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
@@ -58,16 +57,18 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.btnPrev = new System.Windows.Forms.Button();
             this.cbxSearch = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.NudEmpSalary)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtPhoneNum
             // 
             this.txtPhoneNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPhoneNum.ForeColor = System.Drawing.Color.Blue;
-            this.txtPhoneNum.Location = new System.Drawing.Point(141, 263);
+            this.txtPhoneNum.Location = new System.Drawing.Point(380, 210);
             this.txtPhoneNum.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtPhoneNum.Name = "txtPhoneNum";
             this.txtPhoneNum.Size = new System.Drawing.Size(200, 27);
@@ -79,7 +80,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(26, 266);
+            this.label9.Location = new System.Drawing.Point(601, 210);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(99, 18);
@@ -90,7 +91,7 @@
             // 
             this.txtEmpJob.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmpJob.ForeColor = System.Drawing.Color.Blue;
-            this.txtEmpJob.Location = new System.Drawing.Point(141, 210);
+            this.txtEmpJob.Location = new System.Drawing.Point(380, 153);
             this.txtEmpJob.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtEmpJob.Name = "txtEmpJob";
             this.txtEmpJob.Size = new System.Drawing.Size(200, 27);
@@ -102,7 +103,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(52, 210);
+            this.label8.Location = new System.Drawing.Point(601, 153);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(67, 18);
@@ -114,7 +115,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(414, 210);
+            this.label7.Location = new System.Drawing.Point(250, 161);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 18);
@@ -126,7 +127,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(392, 149);
+            this.label6.Location = new System.Drawing.Point(253, 99);
             this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 18);
@@ -135,8 +136,9 @@
             // 
             // DtbDate
             // 
+            this.DtbDate.CalendarForeColor = System.Drawing.Color.Blue;
             this.DtbDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DtbDate.Location = new System.Drawing.Point(504, 144);
+            this.DtbDate.Location = new System.Drawing.Point(16, 98);
             this.DtbDate.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.DtbDate.Name = "DtbDate";
             this.DtbDate.Size = new System.Drawing.Size(224, 27);
@@ -146,7 +148,8 @@
             // NudEmpSalary
             // 
             this.NudEmpSalary.DecimalPlaces = 2;
-            this.NudEmpSalary.Location = new System.Drawing.Point(504, 80);
+            this.NudEmpSalary.ForeColor = System.Drawing.Color.Blue;
+            this.NudEmpSalary.Location = new System.Drawing.Point(16, 35);
             this.NudEmpSalary.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.NudEmpSalary.Maximum = new decimal(new int[] {
             1661992960,
@@ -168,7 +171,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(432, 84);
+            this.label4.Location = new System.Drawing.Point(253, 44);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 18);
@@ -180,7 +183,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(21, 147);
+            this.label3.Location = new System.Drawing.Point(601, 96);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 18);
@@ -190,7 +193,7 @@
             // txtEmpID
             // 
             this.txtEmpID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmpID.Location = new System.Drawing.Point(141, 81);
+            this.txtEmpID.Location = new System.Drawing.Point(380, 39);
             this.txtEmpID.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtEmpID.Name = "txtEmpID";
             this.txtEmpID.ReadOnly = true;
@@ -203,7 +206,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(29, 84);
+            this.label2.Location = new System.Drawing.Point(601, 42);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 18);
@@ -225,7 +228,7 @@
             // 
             this.txtEmpName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmpName.ForeColor = System.Drawing.Color.Blue;
-            this.txtEmpName.Location = new System.Drawing.Point(141, 144);
+            this.txtEmpName.Location = new System.Drawing.Point(380, 96);
             this.txtEmpName.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtEmpName.Name = "txtEmpName";
             this.txtEmpName.Size = new System.Drawing.Size(200, 27);
@@ -236,10 +239,11 @@
             // 
             this.txtEmpAddres.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEmpAddres.ForeColor = System.Drawing.Color.Blue;
-            this.txtEmpAddres.Location = new System.Drawing.Point(504, 207);
+            this.txtEmpAddres.Location = new System.Drawing.Point(16, 161);
             this.txtEmpAddres.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.txtEmpAddres.Multiline = true;
             this.txtEmpAddres.Name = "txtEmpAddres";
-            this.txtEmpAddres.Size = new System.Drawing.Size(224, 27);
+            this.txtEmpAddres.Size = new System.Drawing.Size(224, 83);
             this.txtEmpAddres.TabIndex = 410;
             this.txtEmpAddres.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -247,7 +251,6 @@
             // 
             this.groupBox3.Controls.Add(this.cbxSearch);
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.btnSearch);
             this.groupBox3.Controls.Add(this.btnExit);
             this.groupBox3.Controls.Add(this.btnDeleteAll);
             this.groupBox3.Controls.Add(this.btnClear);
@@ -255,11 +258,11 @@
             this.groupBox3.Controls.Add(this.btnDelete);
             this.groupBox3.Controls.Add(this.btnAdd);
             this.groupBox3.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox3.Location = new System.Drawing.Point(62, 392);
+            this.groupBox3.Location = new System.Drawing.Point(62, 378);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(651, 81);
+            this.groupBox3.Size = new System.Drawing.Size(651, 94);
             this.groupBox3.TabIndex = 412;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "العمليات المتاحة";
@@ -274,27 +277,17 @@
             this.label1.TabIndex = 183;
             this.label1.Text = "اكتب اسم العميل او جزء منه للبحث:";
             // 
-            // btnSearch
-            // 
-            this.btnSearch.ForeColor = System.Drawing.Color.Blue;
-            this.btnSearch.Location = new System.Drawing.Point(5, 16);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(90, 26);
-            this.btnSearch.TabIndex = 194;
-            this.btnSearch.Text = "بحث";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            // 
             // btnExit
             // 
             this.btnExit.ForeColor = System.Drawing.Color.Blue;
             this.btnExit.Location = new System.Drawing.Point(5, 46);
             this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(105, 29);
+            this.btnExit.Size = new System.Drawing.Size(105, 36);
             this.btnExit.TabIndex = 193;
             this.btnExit.Text = "خروج";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnDeleteAll
             // 
@@ -302,10 +295,11 @@
             this.btnDeleteAll.Location = new System.Drawing.Point(115, 46);
             this.btnDeleteAll.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDeleteAll.Name = "btnDeleteAll";
-            this.btnDeleteAll.Size = new System.Drawing.Size(105, 29);
+            this.btnDeleteAll.Size = new System.Drawing.Size(105, 36);
             this.btnDeleteAll.TabIndex = 192;
             this.btnDeleteAll.Text = "حذف الكل";
             this.btnDeleteAll.UseVisualStyleBackColor = true;
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // btnClear
             // 
@@ -313,10 +307,11 @@
             this.btnClear.Location = new System.Drawing.Point(444, 46);
             this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(90, 29);
+            this.btnClear.Size = new System.Drawing.Size(90, 36);
             this.btnClear.TabIndex = 191;
             this.btnClear.Text = "جديد";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnUpdate
             // 
@@ -324,10 +319,11 @@
             this.btnUpdate.Location = new System.Drawing.Point(334, 46);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(90, 29);
+            this.btnUpdate.Size = new System.Drawing.Size(90, 36);
             this.btnUpdate.TabIndex = 190;
             this.btnUpdate.Text = "حفظ";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -335,10 +331,11 @@
             this.btnDelete.Location = new System.Drawing.Point(225, 46);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(90, 29);
+            this.btnDelete.Size = new System.Drawing.Size(90, 36);
             this.btnDelete.TabIndex = 189;
             this.btnDelete.Text = "حذف ";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -346,7 +343,7 @@
             this.btnAdd.Location = new System.Drawing.Point(554, 46);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(90, 29);
+            this.btnAdd.Size = new System.Drawing.Size(90, 36);
             this.btnAdd.TabIndex = 188;
             this.btnAdd.Text = "اضافة";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -359,7 +356,7 @@
             this.groupBox2.Controls.Add(this.btnNext);
             this.groupBox2.Controls.Add(this.btnPrev);
             this.groupBox2.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox2.Location = new System.Drawing.Point(274, 308);
+            this.groupBox2.Location = new System.Drawing.Point(272, 321);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -380,6 +377,7 @@
             this.btnFirst.TabIndex = 182;
             this.btnFirst.Text = ">>";
             this.btnFirst.UseVisualStyleBackColor = false;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnLast
             // 
@@ -393,6 +391,7 @@
             this.btnLast.TabIndex = 183;
             this.btnLast.Text = "<<";
             this.btnLast.UseVisualStyleBackColor = false;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // btnNext
             // 
@@ -406,6 +405,7 @@
             this.btnNext.TabIndex = 184;
             this.btnNext.Text = "<";
             this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnPrev
             // 
@@ -419,40 +419,55 @@
             this.btnPrev.TabIndex = 185;
             this.btnPrev.Text = ">";
             this.btnPrev.UseVisualStyleBackColor = false;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
             // cbxSearch
             // 
             this.cbxSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbxSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cbxSearch.FormattingEnabled = true;
-            this.cbxSearch.Location = new System.Drawing.Point(115, 15);
+            this.cbxSearch.Location = new System.Drawing.Point(6, 14);
             this.cbxSearch.Name = "cbxSearch";
-            this.cbxSearch.Size = new System.Drawing.Size(170, 27);
+            this.cbxSearch.Size = new System.Drawing.Size(279, 27);
             this.cbxSearch.TabIndex = 414;
+            this.cbxSearch.SelectedIndexChanged += new System.EventHandler(this.cbxSearch_SelectedIndexChanged);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtEmpID);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.txtEmpAddres);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.DtbDate);
+            this.groupBox1.Controls.Add(this.txtEmpName);
+            this.groupBox1.Controls.Add(this.NudEmpSalary);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.txtEmpJob);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.txtPhoneNum);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.ForeColor = System.Drawing.Color.Blue;
+            this.groupBox1.Location = new System.Drawing.Point(12, 37);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(721, 269);
+            this.groupBox1.TabIndex = 414;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "اسهم التنقل";
             // 
             // Frm_Emplyee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(745, 507);
+            this.ClientSize = new System.Drawing.Size(745, 481);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.txtEmpAddres);
-            this.Controls.Add(this.txtEmpName);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtPhoneNum);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtEmpJob);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.DtbDate);
-            this.Controls.Add(this.NudEmpSalary);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtEmpID);
-            this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -467,6 +482,8 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -491,7 +508,6 @@
         private System.Windows.Forms.TextBox txtEmpAddres;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnDeleteAll;
         private System.Windows.Forms.Button btnClear;
@@ -504,5 +520,6 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnPrev;
         private System.Windows.Forms.ComboBox cbxSearch;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
