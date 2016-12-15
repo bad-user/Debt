@@ -9,3 +9,14 @@ E:\My Programs\Debt\Debt\obj\x86\Debug\Debt.Frm_Items.resources
 E:\My Programs\Debt\Debt\obj\x86\Debug\Debt.Frm_Department.resources
 E:\My Programs\Debt\Debt\obj\x86\Debug\Debt.Frm_Emplyee.resources
 E:\My Programs\Debt\Debt\obj\x86\Debug\Debt.Frm_Section.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.exe
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.pdb
+H:\My Coding\C# Projects\Debt\Debt\bin\Debug\Debt.exe
+H:\My Coding\C# Projects\Debt\Debt\bin\Debug\Debt.pdb
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Department.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Emplyee.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Items.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Main.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Frm_Section.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.Properties.Resources.resources
+H:\My Coding\C# Projects\Debt\Debt\obj\x86\Debug\Debt.csproj.GenerateResource.Cache

@@ -10,7 +10,7 @@ namespace Dbet
 {
     class DB
     {
-        SqlConnection conn = new SqlConnection(@"server=.\SQLExpress;Initial Catalog=Sales_Managment;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"server=.\SQLExpress;Initial Catalog=Debt;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         public void SetCommand(string stmt)
         {
